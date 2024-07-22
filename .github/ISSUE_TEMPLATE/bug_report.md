@@ -4,20 +4,22 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: neochief
-
-- type: checkboxes
-  id: operating-systems
-  attributes:
-    label: Which operating systems have you used?
-    description: You may select more than one.
-    options:
-      - label: macOS
-      - label: Windows
-      - label: Linux
+body:
+  - type: markdown
+    attributes:
+      value: "Note: If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
+      description: You may select more than one.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
 ---
 
-Note: If you have a general question, a piece of feedback, or an idea to share, please start a 💬discussion instead of posting a bug:
-https://github.com/GitByBit-com/community/discussions/new/choose
+
 
 **Describe the bug**
 A clear and concise description of what the bug is.
