@@ -7,6 +7,8 @@ assignees: neochief
 
 ---
 
+If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
