@@ -5,9 +5,19 @@ title: ''
 labels: ''
 assignees: neochief
 
+- type: checkboxes
+  id: operating-systems
+  attributes:
+    label: Which operating systems have you used?
+    description: You may select more than one.
+    options:
+      - label: macOS
+      - label: Windows
+      - label: Linux
 ---
 
-If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead.
+Note: If you have a general question, a piece of feedback, or an idea to share, please start a 💬discussion instead of posting a bug:
+https://github.com/GitByBit-com/community/discussions/new/choose
 
 **Describe the bug**
 A clear and concise description of what the bug is.
