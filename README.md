@@ -1,4 +1,4 @@
-# GitByBit Community
+# GitByBit Community Hub
 
 This repository is a community hub for the [GitByBit VSCode Extension](https://marketplace.visualstudio.com/items?itemName=GitByBit.gitbybit).
 
