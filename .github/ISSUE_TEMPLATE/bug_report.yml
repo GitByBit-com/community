@@ -7,15 +7,6 @@ body:
       value: |
         > [!NOTE]
         > If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
-  
-  - type: checkboxes
-    id: operating-systems
-    attributes:
-      label: Which operating systems have you used?
-      options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
 
   - type: textarea
     id: report
@@ -43,10 +34,21 @@ body:
         Add any other context about the problem here.
     validations:
       required: true
+
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+
   - type: input
     id: vs-code-version
     attributes:
       label: VSCode version (see in Main menu > About VS Code)
+
   - type: input
     id: git-version
     attributes:
