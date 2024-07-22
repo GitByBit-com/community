@@ -4,12 +4,14 @@ assignees: neochief
 body:
   - type: markdown
     attributes:
-      value: "Note: If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
+      value: |
+        > [!NOTE]
+        > If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
+  
   - type: checkboxes
     id: operating-systems
     attributes:
       label: Which operating systems have you used?
-      description: You may select more than one.
       options:
         - label: macOS
         - label: Windows
