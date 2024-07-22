@@ -1,4 +1,4 @@
-# GitByBit VSCodeExtension Issue Tracker
+# GitByBit VSCode Community
 
 This repository is an issue tracker for the [GitByBit VSCode Extension](https://marketplace.visualstudio.com/items?itemName=GitByBit.gitbybit).
 
