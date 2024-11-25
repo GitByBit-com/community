@@ -9,11 +9,29 @@ body:
         > If you have a general question, feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
 
   - type: textarea
-    id: body
+    id: bug
     attributes:
       label: Bug report
       description: "How do you trigger this bug? Please walk us through it step by step."
-     
+      value: |
+        **Describe the bug**
+        A clear and concise description of what the bug is.
+        
+        **To Reproduce**
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+        
+        **Expected behavior**
+        A clear and concise description of what you expected to happen.
+        
+        **Screenshots**
+        If applicable, add screenshots to help explain your problem.
+
+        **Additional context**
+        Add any other context about the problem here.
     validations:
       required: true
 
