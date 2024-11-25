@@ -9,7 +9,7 @@ body:
         > If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
 
   - type: textarea
-    id: report
+    id: body
     attributes:
       label: Bug report
       description: "How do you trigger this bug? Please walk us through it step by step."
