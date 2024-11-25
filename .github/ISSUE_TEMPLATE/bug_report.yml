@@ -41,7 +41,7 @@ body:
       label: VSCode version (see in Main menu > About VS Code)
 
   - type: input
-    id: operating-systems
+    id: operating-system
     attributes:
       label: Which operating systems have you used?
 
