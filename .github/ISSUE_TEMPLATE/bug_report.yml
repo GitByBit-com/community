@@ -13,6 +13,7 @@ body:
     attributes:
       label: Bug report
       description: "How do you trigger this bug? Please walk us through it step by step."
+      rows: 10
       value: |
         **Describe the bug**
         A clear and concise description of what the bug is.
@@ -35,19 +36,15 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: operating-systems
-    attributes:
-      label: Which operating systems have you used?
-      options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
-
   - type: input
     id: vs-code-version
     attributes:
       label: VSCode version (see in Main menu > About VS Code)
+
+  - type: input
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
 
   - type: input
     id: git-version
