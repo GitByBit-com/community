@@ -38,19 +38,23 @@ body:
   - type: input
     id: vs-code-version
     attributes:
-      label: VSCode version (see in the **Main menu** > **About Visual Studio Code**)
+      label: VSCode version
+      description: Find out in the **Main menu** > **About Visual Studio Code**.
       
   - type: input
     id: operating-system
     attributes:
       label: Operating system
+      description: Windows 11, macOS 15.1.1, etc.
 
   - type: input
     id: git-version
     attributes:
-      label: Git version (only if related to git commands; find out with `git -v`)
+      label: Git version (only if related to git commands)
+      description: Find out with `git -v`.
 
   - type: input
     id: vs-code-machine-id
     attributes:
-      label: VSCode machine ID (optional, filled automatically)
+      label: VSCode machine ID (optional)
+      description: Filled automatically when submitting bug reports from within VS Code.
