@@ -13,7 +13,6 @@ body:
     attributes:
       label: Bug report
       description: "How do you trigger this bug? Please walk us through it step by step."
-      rows: 10
       value: |
         **Describe the bug**
         A clear and concise description of what the bug is.
