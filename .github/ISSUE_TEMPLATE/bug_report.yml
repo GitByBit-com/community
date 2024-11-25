@@ -38,14 +38,19 @@ body:
   - type: input
     id: vs-code-version
     attributes:
-      label: VSCode version (see in Main menu > About VS Code)
-
+      label: VSCode version (see in the **Main menu** > **About Visual Studio Code**)
+      
   - type: input
     id: operating-system
     attributes:
-      label: Which operating systems have you used?
+      label: Operating system
 
   - type: input
     id: git-version
     attributes:
-      label: Git version (if related to git commands)
+      label: Git version (only if related to git commands; find out with `git -v`)
+
+  - type: input
+    id: vs-code-machine-id
+    attributes:
+      label: VSCode machine ID (optional, filled automatically)
