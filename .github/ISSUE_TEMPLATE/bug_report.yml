@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > If you have a general question, a piece of feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
+        > If you have a general question, feedback, or an idea to share, please [start a 💬discussion](https://github.com/GitByBit-com/community/discussions/new/choose) instead of reporting a bug."
 
   - type: textarea
     id: body
